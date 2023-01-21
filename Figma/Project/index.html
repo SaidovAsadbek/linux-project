@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Marketing and more...</title>
+    <link rel="icon" href="./images/favicon.svg">
+    <!-- -------- Font Awesome Cdn -------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css"
+        integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css"
+        integrity="sha512-k2UAKyvfA7Xd/6FrOv5SG4Qr9h4p2oaeshXF99WO3zIpCsgTJ3YZELDK0gHdlJE5ls+Mbd5HL50b458z3meB/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- -------- Custom css -------- -->
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+    <div class="loader-page block" id="loader">
+        <div class="loading">
+            <img src="./images/Double Ring-1s-200px.svg" alt="">
+        </div>
+    </div>
+
+    <header class="header" id="home">
+        <nav class="navbar">
+            <div class="container">
+                <div class="row">
+                    <a href="/" class="navbar-logo"><img src="./images/header/logo.svg" alt="LOGO"></a>
+
+                    <button class="toggle-btn" id="toggle-btn">
+                        <span class="stroke"></span>
+                    </button>
+                    <div class="submenu" id="toggle-menu">
+                        <ul class="flex">
+                            <li class="link-item"><a href="#home" class="nav-link">Home</a></li>
+                            <li class="link-item"><a href="#about" class="nav-link">About Us</a></li>
+                            <li class="link-item"><a href="#pages" class="nav-link">Pages</a></li>
+                            <li class="link-item"><a href="#services" class="nav-link">Services</a></li>
+                            <li class="link-item"><a href="#checkout" class="nav-link">Cart <span
+                                        class="cart-basket">0</span></a></li>
+                            <button class="btn btn-info"><a href="/account/register" class="nav-link">Get
+                                    Starter</a></button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="left-content col-5">
+                        <div class="col-12">
+                            <h3>Marketing solutions that grow your business.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros
+                                elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+
+                            <div class="btn-group">
+                                <button class="btn btn-info"><a href="/" class="nav-link">Our Services</a></button>
+                                <button class="btn btn-secondary"><a href="/" class="nav-link">Contact Us</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-content col-5">
+                        <div class="col-12">
+                            <div class="flex">
+                                <div class="flex-column">
+                                    <div class="banner-item">
+                                        <img src="./images/header/banner1.svg" alt="header-Banner">
+                                    </div>
+                                    <div class="banner-item">
+                                        <img src="./images/header/banner4.svg" alt="header-Banner">
+                                    </div>
+                                </div>
+                                <div class="flex-column">
+                                    <div class="banner-item">
+                                        <img src="./images/header/banner2.svg" alt="header-Banner">
+                                    </div>
+                                    <div class="banner-item">
+                                        <img src="./images/header/banner3.svg" alt="header-Banner">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+
+        <section class="brand" id="brand">
+            <div class="container">
+                <div class="table"></div>
+                <div class="section-title">
+                    <h3>TRUSTED BY startups and large enterprises</h3>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./images/slider/sld1.svg" alt="Slider-Image">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/slider/sld2.svg" alt="Slider-Image">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/slider/sld3.svg" alt="Slider-Image">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/slider/sld4.svg" alt="Slider-Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <div class="services-top col-12">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="col-12">
+                                <button class="btn-small btn-dark">Services</button>
+                                <h1>Services we offer</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in
+                                    eros
+                                    elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+                                <button class="btn mt-3 btn-info">All Services</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="offer-item">
+                                        <div class="image">
+                                            <img src="./images/services/like.svg" alt="">
+                                        </div>
+                                        <div class="offer-content">
+                                            <h4>Social Media Marketing</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                                                enim
+                                                urna adipiscing praesent velit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="offer-item">
+                                        <div class="image">
+                                            <img src="./images/services/usd.svg" alt="">
+                                        </div>
+                                        <div class="offer-content">
+                                            <h4>Paid Advertising</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                                                enim
+                                                urna adipiscing praesent velit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="offer-item">
+                                        <div class="image">
+                                            <img src="./images/services/mail.svg" alt="">
+                                        </div>
+                                        <div class="offer-content">
+                                            <h4>Email Marketing</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                                                enim
+                                                urna adipiscing praesent velit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="offer-item">
+                                        <div class="image">
+                                            <img src="./images/services/search.svg" alt="">
+                                        </div>
+                                        <div class="offer-content">
+                                            <h4>SEO Optimization</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                                                enim
+                                                urna adipiscing praesent velit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 services-bottom">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="user">
+                                        <img src="./images/services/user.svg" alt="">
+                                    </div>
+                                    <div class="user">
+                                        <img src="./images/services/user2.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="col-12">
+                                <button class="btn-small btn-dark">Why Choose Us</button>
+                                <h1>We help great brands scale with content marketing.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in
+                                    eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+                                <div class="checked-group">
+                                    <div class="flex">
+                                        <div class="check-image">
+                                            <img src="./images/services/check.svg" alt="">
+                                        </div>
+                                        <p>This's same text inside of a div.</p>
+                                    </div>
+                                    <div class="flex">
+                                        <div class="check-image">
+                                            <img src="./images/services/check.svg" alt="">
+                                        </div>
+                                        <p>This's same text inside of a div.</p>
+                                    </div>
+                                    <div class="flex">
+                                        <div class="check-image">
+                                            <img src="./images/services/check.svg" alt="">
+                                        </div>
+                                        <p>This's same text inside of a div.</p>
+                                    </div>
+                                    <div class="flex">
+                                        <div class="check-image">
+                                            <img src="./images/services/check.svg" alt="">
+                                        </div>
+                                        <p>This's same text inside of a div.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pages" id="pages">
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="flex">
+                                <div class="card">
+                                    <h3>1.2M+</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+                                    </p>
+                                </div>
+                                <div class="card">
+                                    <h3>3.4B</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+                                    </p>
+                                </div>
+                                <div class="card">
+                                    <h3>98%</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+                                    </p>
+                                </div>
+                                <div class="card">
+                                    <h3>10+</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <img src="./images/about/user.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-title">
+                    <div class="col-12">
+                        <div class="flex">
+                            <div class="title col-6">
+                                <button class="btn-small btn-dark">TESTIMONIALS</button>
+                                <h1>See what our client say</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                    in
+                                    eros
+                                    elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum
+                                    nulla,
+                                    ut
+                                    commodo
+                                    diam libero.</p>
+                            </div>
+                            <button class="btn btn-info">Get in touch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-block-items">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="about-block-item col-4">
+                                <div class="user-block">
+                                    <div class="user-block-image">
+                                        <img src="./images/about/block1.svg" alt="User">
+                                    </div>
+                                    <div class="user-block-title">
+                                        <h4>John Doe</h4>
+                                        <span>Company Name</span>
+                                    </div>
+                                </div>
+                                <div class="user-context">
+                                    <h1>"I recommended this agency"</h1>
+                                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                        varius enim
+                                        in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum nulla, ut commodo diam libero.</p>
+                                    <div class="rating mt-3">
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-block-item col-4">
+                                <div class="user-block">
+                                    <div class="user-block-image">
+                                        <img src="./images/about/block2.svg" alt="User">
+                                    </div>
+                                    <div class="user-block-title">
+                                        <h4>Alice Smith</h4>
+                                        <span>Company Name</span>
+                                    </div>
+                                </div>
+                                <div class="user-context">
+                                    <h1>"The support is awesome"</h1>
+                                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                        varius enim
+                                        in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum nulla, ut commodo diam libero.</p>
+                                    <div class="rating mt-3">
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-block-item col-4">
+                                <div class="user-block">
+                                    <div class="user-block-image">
+                                        <img src="./images/about/block3.svg" alt="User">
+                                    </div>
+                                    <div class="user-block-title">
+                                        <h4>Sophie Miller</h4>
+                                        <span>Company Name</span>
+                                    </div>
+                                </div>
+                                <div class="user-context">
+                                    <h1>"A game changer for us"</h1>
+                                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                        varius enim
+                                        in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum nulla, ut commodo diam libero.</p>
+                                    <div class="rating mt-3">
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                        <div class="rating-star"><img src="./images/about/rating.svg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-new col-12">
+                    <div class="section-title">
+                        <div class="col-12">
+                            <div class="flex">
+                                <div class="title col-6">
+                                    <button class="btn-small btn-dark">BLOG</button>
+                                    <h1>Read our articles & news</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros
+                                        elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum
+                                        nulla,
+                                        ut
+                                        commodo
+                                        diam libero.</p>
+                                </div>
+                                <button class="btn btn-info">All Posts</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-block-news">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="block-news-item col-4">
+                                    <div class="news-banner">
+                                        <img src="./images/about/articles/new1.svg" alt="banner-news-card">
+                                        <div class="banner-index">
+                                            <button class="btn btn-trans">Social Media</button>
+                                        </div>
+                                        <div class="drop-effect">
+                                            <a href="/">More...</a>
+                                        </div>
+                                    </div>
+                                    <div class="new-context">
+                                        <span class="date">August 27, 2022</span>
+                                        <h3>How to Use Social Proof in Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
+                                            urna adipiscing praesent velit viverra sit semper lorem.</p>
+                                        <a href="/" class="read-link">Read Now</a>
+                                    </div>
+                                </div>
+                                <div class="block-news-item col-4">
+                                    <div class="news-banner">
+                                        <img src="./images/about/articles/new2.svg" alt="banner-news-card">
+                                        <div class="banner-index">
+                                            <button class="btn btn-trans">SEO</button>
+                                        </div>
+                                        <div class="drop-effect">
+                                            <a href="/">More...</a>
+                                        </div>
+                                    </div>
+                                    <div class="new-context">
+                                        <span class="date">August 27, 2022</span>
+                                        <h3>Make a great first impression with these titles</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
+                                            urna adipiscing praesent velit viverra sit semper lorem.</p>
+                                        <a href="/" class="read-link">Read Now</a>
+                                    </div>
+                                </div>
+                                <div class="block-news-item col-4">
+                                    <div class="news-banner">
+                                        <img src="./images/about/articles/new2.svg" alt="banner-news-card">
+                                        <div class="banner-index">
+                                            <button class="btn btn-trans">Strategy</button>
+                                        </div>
+                                        <div class="drop-effect">
+                                            <a href="/">More...</a>
+                                        </div>
+                                    </div>
+                                    <div class="new-context">
+                                        <span class="date">August 27, 2022</span>
+                                        <h3>How to Grab Your Reader’s Attention</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
+                                            urna adipiscing praesent velit viverra sit semper lorem.</p>
+                                        <a href="/" class="read-link">Read Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-4 text-center">
+                            <h1>Ready to start scaling your business now?</h1>
+                            <p>Lorem ipsum dolor sit am consectetur adipiscing varius enim in eros.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="flex">
+                                <button class="btn btn-info">Our Services</button>
+                                <button class="btn btn-secondary">Contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="row" style="align-items: flex-start; justify-content: space-between;">
+                    <div class="nav-block">
+                        <!-- 350 -->
+                        <div class="footer-brand" style="width: 150px;">
+                            <a href="/" class="navbar-logo"><img src="./images/header/logo.svg" alt="LOGO"></a>
+                        </div>
+
+                        <p>Growfy is a template highly suitable for modern marketing agencies, digital studios, startups
+                            and businesses. The design is made in the dark style, which makes the site memorable and you
+                            can easily adapt it to your brand.</p>
+                        <div class="social-icons">
+                            <a href="/" class="icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="/" class="icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="/" class="icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="/" class="icon">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="/" class="icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-block">
+                        <div class="flex">
+                            <div class="inner_block">
+                                <h2>Pages</h2>
+                                <ul>
+                                    <li><a href="#header">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#packages">Packages</a></li>
+                                    <li><a href="#Blog">Blog</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="inner_block">
+                                <h2>Utility Pages</h2>
+                                <ul>
+                                    <li><a href="#">Instructions</a></li>
+                                    <li><a href="#">Style guide</a></li>
+                                    <li><a href="#">Licenses</a></li>
+                                    <li><a href="#">Changelog</a></li>
+                                    <li><a href="#">404 Not found</a></li>
+                                    <li><a href="#">Password protected</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-block">
+                        <h2>Subscribe to our newsletter</h2>
+                        <p>Lorem ipsum dolor sit am consectetur adipiscing</p>
+                        <form action="">
+                            <input type="text" placeholder="Enter your email">
+                            <button class="btn btn-info">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <span>&copy; Growfy — Powered by <i><b>webflow</b></i> — Created by <small>Asadbek
+                        Developer</small></span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const loading = document.getElementById("loader");
+        if (loading) {
+            document.body.style.overflow = "hidden";
+            setTimeout(() => {
+                loading.classList.add("fade");
+                setTimeout(() => {
+                    loading.classList.remove("block");
+                    loading.classList.add("hide");
+                    document.body.style.overflow = "auto";
+                }, 300);
+            }, 3000);
+        }
+    </script>
+</body>
+
+</html>

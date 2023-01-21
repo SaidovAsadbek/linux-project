@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: #FFF5F1;
+}
+
+.container {
+    max-width: 100%;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    padding: 35px 0;
+}
+
+.navbar .links {
+    color: #666680;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 6px 15px;
+    display: block;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.btn {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 52px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.btn a {
+    color: #524FD5;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background: #524FD5;
+}
+
+.btn:hover a {
+    color: white;
+}
+
+.right-images {
+    position: relative;
+    height: 700px;
+}
+
+.right-images img {
+    position: absolute;
+}
+
+.left-side h2 {
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 58px;
+    margin-bottom: 30px;
+}
+
+.left-side h2 span {
+    color: #524FD5;
+    font-weight: 500;
+}
+
+.left-side p {
+    color: #666680;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.left-side button {
+    background: #524FD5;
+    color: white;
+    border-radius: 73px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.left-side {
+    max-width: 100%;
+    width: 558px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
